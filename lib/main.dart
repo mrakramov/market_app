@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_intermediate/pages/hotels_home_page.dart';
 import 'package:flutter_intermediate/pages/market_home_page.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MarketHomePage(),
+      home: HotelsHomePage(),
     );
   }
 }
